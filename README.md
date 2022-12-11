@@ -1,8 +1,8 @@
 - 👋 Hi, I’m @Nabajit_Pahdsingh
 - 👀 I’m interested in Python,HTML,Philosophy and spirituality.
 - 🌱 I’m currently learning Python
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+- 💞️ I’m looking to collaborate with people of like mindset.
+- 📫 Reach me at https://www.linkedin.com/in/nabajit-pahadsingh-4b1941143/
 
 <!---
 Nabajit828/Nabajit828 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
