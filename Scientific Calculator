@@ -1,0 +1,105 @@
+#Scientific Calculator
+import math as m
+print('#######################################################################')
+print('                         Scientific Calculator                         ')
+print('#######################################################################')
+print()
+print('1. Press 1 for Addition')
+print('2. Press 2 for Subtraction')
+print('3. Press 3 for Multiplication')
+print('4. Press 4 for Division')
+print('5. Press 5 for Comparison')
+print('6. Press 6 for Factorial')
+print('7. Press 7 for Exponentiation')
+print('8. Press 8 for Square Root')
+print('9. Press 9 for Floor Division')
+print('10. Press 10 for Highest Common Factor')
+print('11. Press 11 for Lowest Common Multiple')
+print('12. Press 12 for finding log')
+print('13. Press 13 for calculating area of the circle')
+
+
+
+#taking input from user
+print()
+ch=int(input('Enter your choice: '))
+
+if (ch==1):
+    a=float(input("Enter first number: "))
+    b=float(input("Enter second number: "))
+    c=a+b
+    print("Sum:",c)
+    
+elif (ch==2):
+    a=float(input("Enter first number: "))
+    b=float(input("Enter second number: "))
+    c=a-b
+    print("Difference:",c)
+    
+elif (ch==3):
+    a=float(input("Enter first number: "))
+    b=float(input("Enter second number: "))
+    c=a*b
+    print("Product:",c)
+    
+elif (ch==4):
+    a=float(input("Enter first number: "))
+    b=float(input("Enter second number: "))
+    c=a/b
+    print("Quotient:",c)
+    
+elif (ch==5):
+    a=float(input("Enter first number: "))
+    b=float(input("Enter second number: "))
+    if a>b:
+        print(a,'is greater than',b)
+    else:
+        print(b,'is greater than',a)
+        
+elif (ch==6):
+    print('Please enter natural numbers only')
+    a=int(input("Enter the number: "))
+    print("Factorial:",m.factorial(a))
+    
+elif (ch==7):
+    a=float(input("Enter first number: "))
+    b=float(input("Enter second number: "))
+    c=m.pow(a,b)
+    print("Power raised is:",c)
+    
+elif (ch==8):
+    a=float(input("Enter first number: "))
+    c=m.sqrt(a)
+    print("Square Root:",c)
+    
+elif (ch==9):
+    a=float(input("Enter first number: "))
+    b=float(input("Enter second number: "))
+    c=a//b
+    print("Floor division:",c)
+    
+elif (ch==10):
+    a=int(input("Enter first number: "))
+    b=int(input("Enter second number: "))
+    c=m.gcd(a,b)
+    print("H.C.F:",c)
+    
+elif (ch==11):
+    a=int(input("Enter first number: "))
+    b=int(input("Enter second number: "))
+    c=m.lcm(a,b)
+    print("L.C.M:",c)
+    
+elif (ch==12):
+    a=int(input("Enter log number: "))
+    b=int(input("Enter base: "))
+    c=m.log(a,b)
+    print("Log:",c)
+    
+elif (ch==13):
+    r=float(input("Enter radius of the circle: "))
+    x=m.pi*(r**2)
+    print("Area of the circle:",x)
+    
+else:
+    print('Enter a valid choice')
