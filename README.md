@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @Nabajit_Pahdsingh
-- 👀 I’m interested in Python,HTML,Philosophy and spirituality.
+- 👀 I’m interested in Python,Data Science, Machine Learning.
 - 🌱 I’m currently learning Python
 - 💞️ I’m looking to collaborate with people of like mindset.
 - 📫 Reach me at https://www.linkedin.com/in/nabajit-pahadsingh-4b1941143/
